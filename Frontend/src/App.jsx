@@ -35,7 +35,7 @@ export default function AlgoReview() {
 
   async function reviewCode() {
     try {
-      const response = await axios.post("http://localhost:3000/ai/get-review", {
+      const response = await axios.post("https://akgo-genius.onrender.com/ai/get-review", {
         code,
       });
       setReview(response.data || "Error: No review received.");
