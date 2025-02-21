@@ -41,15 +41,19 @@ Google's **Gemini Model Flash 2.0** unlocks new possibilities for AI agents. The
    cd Backend && npm install
    cd ../Frontend && npm install
    ```
-4. **Start the backend server:**
+4. **Create a `.env` file in the Backend folder and add:**
+   ```
+   GOOGLE_GEMINI_KEY=your_api_key_here
+   ```
+5. **Start the backend server:**
    ```bash
    cd Backend && npm start
    ```
-5. **Start the frontend:**
+6. **Start the frontend:**
    ```bash
    cd ../Frontend && npm run dev
    ```
-6. Open your browser and go to `http://localhost:3000`
+7. Open your browser and go to `http://localhost:3000`
 
 ## Deployment 🚀
 
